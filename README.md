@@ -23,3 +23,4 @@ npm run build
   I see my 'chartdata' is a object, im used 'chardata.datasets' to fill that data, labels im push in the object. but i need to initialize 'null' my array of 'datasets', when i have the data, show them in 'DOM'.
   
   The swipe button is only interactive to show chart
+
