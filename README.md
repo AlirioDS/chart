@@ -2,29 +2,20 @@
 
 ## Project setup
 ```
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+npm run dev
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+npm run build
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# chartjs-vuejs
-
-Solution:
+### Solution:
   Im using axios to get data from URL "http://www.mocky.io/v2/5dca723f33000073003ded0c", this give me data to setter in my object using chartjs to create chart. Im using map to setter data from object to show in chart, in this case: 'total_approved', 'total_disapproved'.
   
   When i setter data from endpoint, is neccesary to put data in 'chartdata', but i have a problem, im setter the labels, but in the object dont have names, but i have that in my email: '15 a 19 años', '20 29 años', '30-49 años', '50-64 años', 'Más de 65'. I need to push that labels.
